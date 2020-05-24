@@ -137,7 +137,7 @@
             <DriverSelection>4100</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
-          <Flash2>BIN\UL2CM3.DLL</Flash2>
+          <Flash2>STLink\ST-LINKIII-KEIL_SWO.dll</Flash2>
           <Flash3>"" ()</Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
@@ -337,7 +337,7 @@
               <MiscControls>--C99</MiscControls>
               <Define>STM32F103xB,USE_FULL_LL_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\PROJ_UN</IncludePath>
+              <IncludePath>..\PROJ_UN;..\DFT_Partie_3</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -392,11 +392,6 @@
               <FilePath>.\Src\Valeur.s</FilePath>
             </File>
             <File>
-              <FileName>Signal.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Src\Signal.s</FilePath>
-            </File>
-            <File>
               <FileName>DFT.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\Src\DFT.s</FilePath>
@@ -417,9 +412,9 @@
           <GroupName>drivers</GroupName>
           <Files>
             <File>
-              <FileName>gassp72.lib</FileName>
+              <FileName>gfssp72.lib</FileName>
               <FileType>4</FileType>
-              <FilePath>.\gassp72.lib</FilePath>
+              <FilePath>.\gfssp72.lib</FilePath>
             </File>
           </Files>
         </Group>
