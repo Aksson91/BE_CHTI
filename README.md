@@ -1,7 +1,9 @@
-# BE_CHTI
+# Bureau d'étude CHTI
 Bienvenue sur le répertoire GIT du Bureau d'étude CHTI de Dany LAU et Alexandre AL AJROUDI, étudiants en 3MIC à l'INSA Toulouse.  
 
-Vous pouvez consulter les différents objectifs réalisés en allant sur la branche de l'objectif.  
+Vous pouvez consulter les différents objectifs réalisés en allant sur la branche de l'objectif:
+[OBJECTIF 1](https://github.com/Aksson91/BE_CHTI/tree/OBJECTIF_1)
+[OBJECTIF 2](https://github.com/Aksson91/BE_CHTI/tree/OBJECTIF_2)
 N'hesitez pas à lire nos conseils d'utilisation pour chaque branche afin de réaliser les tests adéquats.
 
 Cordialement,  
