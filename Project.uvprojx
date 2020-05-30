@@ -337,7 +337,7 @@
               <MiscControls>--C99</MiscControls>
               <Define>STM32F103xB,USE_FULL_LL_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\PROJ_UN;..\DFT_Partie_3</IncludePath>
+              <IncludePath>.\Src;..\BE_CHTI</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -355,7 +355,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath></IncludePath>
+              <IncludePath>.\Src</IncludePath>
             </VariousControls>
           </Aads>
           <LDads>
@@ -387,14 +387,14 @@
               <FilePath>.\Src\principal.c</FilePath>
             </File>
             <File>
-              <FileName>Valeur.s</FileName>
+              <FileName>son.s</FileName>
               <FileType>2</FileType>
-              <FilePath>.\Src\Valeur.s</FilePath>
+              <FilePath>.\Src\son.s</FilePath>
             </File>
             <File>
-              <FileName>DFT.s</FileName>
+              <FileName>bruitverre.asm</FileName>
               <FileType>2</FileType>
-              <FilePath>.\Src\DFT.s</FilePath>
+              <FilePath>.\Src\bruitverre.asm</FilePath>
             </File>
           </Files>
         </Group>
@@ -412,9 +412,9 @@
           <GroupName>drivers</GroupName>
           <Files>
             <File>
-              <FileName>gfssp72.lib</FileName>
+              <FileName>gassp72.lib</FileName>
               <FileType>4</FileType>
-              <FilePath>.\gfssp72.lib</FilePath>
+              <FilePath>.\gassp72.lib</FilePath>
             </File>
           </Files>
         </Group>
