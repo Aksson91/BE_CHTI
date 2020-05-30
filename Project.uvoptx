@@ -154,11 +154,38 @@
         </SetRegEntry>
       </TargetDriverDllRegistry>
       <Breakpoint/>
+      <WatchWindow1>
+        <Ww>
+          <count>0</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>ON</ItemText>
+        </Ww>
+        <Ww>
+          <count>1</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>dft</ItemText>
+        </Ww>
+        <Ww>
+          <count>2</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>occurence</ItemText>
+        </Ww>
+        <Ww>
+          <count>3</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>score</ItemText>
+        </Ww>
+        <Ww>
+          <count>4</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>score[1]</ItemText>
+        </Ww>
+      </WatchWindow1>
       <MemoryWindow1>
         <Mm>
           <WinNumber>1</WinNumber>
           <SubType>0</SubType>
-          <ItemText>r1</ItemText>
+          <ItemText>\\CHTI\Src/principal.c\score[5]</ItemText>
           <AccSizeX>0</AccSizeX>
         </Mm>
       </MemoryWindow1>
@@ -207,8 +234,38 @@
       <LogicAnalyzers>
         <Wi>
           <IntNumber>0</IntNumber>
+          <FirstString>`occurence[0]</FirstString>
+          <SecondString>0080000000000000000000000000000000003440000000000000000000000000000000006F63637572656E63655B305D00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000700000001000000922449922449C23F1A00000000000000000000000000000000000000D40D0008</SecondString>
+        </Wi>
+        <Wi>
+          <IntNumber>1</IntNumber>
+          <FirstString>`occurence[1]</FirstString>
+          <SecondString>0000800000000000000000000000000000003440000000000000000000000000000000006F63637572656E63655B315D00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000700000002000000922449922449C23F1A00000000000000000000000000000000000000D40D0008</SecondString>
+        </Wi>
+        <Wi>
+          <IntNumber>2</IntNumber>
+          <FirstString>`occurence[2]</FirstString>
+          <SecondString>0000000000000000000000000000000000003440000000000000000000000000000000006F63637572656E63655B325D00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000700000003000000922449922449C23F1A00000000000000000000000000000000000000D40D0008</SecondString>
+        </Wi>
+        <Wi>
+          <IntNumber>3</IntNumber>
+          <FirstString>`occurence[3]</FirstString>
+          <SecondString>FF00000000000000000000000000000000003440000000000000000000000000000000006F63637572656E63655B335D00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000700000004000000922449922449C23F1A00000000000000000000000000000000000000D40D0008</SecondString>
+        </Wi>
+        <Wi>
+          <IntNumber>4</IntNumber>
+          <FirstString>`occurence[4]</FirstString>
+          <SecondString>0080000000000000000000000000000000003440000000000000000000000000000000006F63637572656E63655B345D00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000700000005000000922449922449C23F1A00000000000000000000000000000000000000D40D0008</SecondString>
+        </Wi>
+        <Wi>
+          <IntNumber>5</IntNumber>
+          <FirstString>`occurence[5]</FirstString>
+          <SecondString>0000800000000000000000000000000000003440000000000000000000000000000000006F63637572656E63655B355D00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000700000006000000922449922449C23F1A00000000000000000000000000000000000000D40D0008</SecondString>
+        </Wi>
+        <Wi>
+          <IntNumber>6</IntNumber>
           <FirstString>`TIM3_CCR3</FirstString>
-          <SecondString>00800000000000000000000000000000007894400000000000000000000000000000000054494D335F4343523300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000001000000000000000000F03F1500000000000000000000000000000000000000401E0008</SecondString>
+          <SecondString>00008000000000000000000000000000007894400000000000000000000000000000000054494D335F4343523300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000007000000922449922449C23F1A00000000000000000000000000000000000000B40E0008</SecondString>
         </Wi>
       </LogicAnalyzers>
       <DebugDescription>
@@ -245,8 +302,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Src\son.s</PathWithFileName>
-      <FilenameWithoutPath>son.s</FilenameWithoutPath>
+      <PathWithFileName>.\Src\Valeur.s</PathWithFileName>
+      <FilenameWithoutPath>Valeur.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -257,8 +314,32 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
+      <PathWithFileName>.\Src\DFT.s</PathWithFileName>
+      <FilenameWithoutPath>DFT.s</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>1</GroupNumber>
+      <FileNumber>4</FileNumber>
+      <FileType>2</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
       <PathWithFileName>.\Src\bruitverre.asm</PathWithFileName>
       <FilenameWithoutPath>bruitverre.asm</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>1</GroupNumber>
+      <FileNumber>5</FileNumber>
+      <FileType>2</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Src\son.s</PathWithFileName>
+      <FilenameWithoutPath>son.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -272,7 +353,7 @@
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>2</GroupNumber>
-      <FileNumber>4</FileNumber>
+      <FileNumber>6</FileNumber>
       <FileType>2</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -292,13 +373,13 @@
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>3</GroupNumber>
-      <FileNumber>5</FileNumber>
+      <FileNumber>7</FileNumber>
       <FileType>4</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\gassp72.lib</PathWithFileName>
-      <FilenameWithoutPath>gassp72.lib</FilenameWithoutPath>
+      <PathWithFileName>.\gfssp72.lib</PathWithFileName>
+      <FilenameWithoutPath>gfssp72.lib</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
